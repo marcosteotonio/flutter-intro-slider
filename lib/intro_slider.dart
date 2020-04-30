@@ -963,7 +963,6 @@ class IntroSliderState extends State<IntroSlider>
       decoration: backgroundImage != null
           ? BoxDecoration(
               image: DecorationImage(
-                image: ,
                 image: NetworkImage(backgroundImage),
                 fit: backgroundImageFit ?? BoxFit.cover,
                 colorFilter: ColorFilter.mode(
